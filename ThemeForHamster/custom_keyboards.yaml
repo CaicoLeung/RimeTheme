@@ -864,7 +864,7 @@ keyboards:
             swipe:
               - action:
                   symbol:
-                    char: "~"
+                    char: "-"
                 display: true
                 processByRIME: false
                 direction: up
@@ -936,7 +936,7 @@ keyboards:
             swipe:
               - action:
                   symbol:
-                    char: "@"
+                    char: "~"
                 display: true
                 processByRIME: false
                 direction: up
@@ -959,8 +959,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: "'"
+                  character:
+                    char: """
                 display: true
                 processByRIME: false
                 direction: up
@@ -981,10 +981,6 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: up
-              - action: tab
-                display: true
-                processByRIME: true
-                direction: down
             lightModeStyle: *a1
             darkModeStyle: *a1
           - action: none
@@ -1001,8 +997,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: "-"
+                  character:
+                    char: "@"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1013,8 +1009,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: _
+                  character:
+                    char: "。"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1037,8 +1033,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: "?"
+                  character:
+                    char: "·"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1049,8 +1045,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: "!"
+                  character:
+                    char: "？"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1061,8 +1057,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: ","
+                  character:
+                    char: "！"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1073,8 +1069,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: .
+                  character:
+                    char: "……"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1117,11 +1113,6 @@ keyboards:
                 display: false
                 processByRIME: false
                 direction: up
-              - action:
-                  keyboardType: emojis
-                display: false
-                processByRIME: false
-                direction: down
               - action:
                   shortcutCommand: "#上个输入方案"
                 display: false
