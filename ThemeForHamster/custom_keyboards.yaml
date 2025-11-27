@@ -120,15 +120,9 @@ keyboards:
               - action:
                   character:
                     char: "1"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "1"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: w
@@ -138,15 +132,9 @@ keyboards:
               - action:
                   character:
                     char: "2"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "2"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: e
@@ -156,15 +144,9 @@ keyboards:
               - action:
                   character:
                     char: "3"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "3"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: r
@@ -174,15 +156,9 @@ keyboards:
               - action:
                   character:
                     char: "4"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "4"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: t
@@ -192,15 +168,9 @@ keyboards:
               - action:
                   character:
                     char: "5"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "5"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: y
@@ -210,15 +180,9 @@ keyboards:
               - action:
                   character:
                     char: "6"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "6"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: u
@@ -228,15 +192,9 @@ keyboards:
               - action:
                   character:
                     char: "7"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "7"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: i
@@ -246,15 +204,9 @@ keyboards:
               - action:
                   character:
                     char: "8"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "8"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: o
@@ -264,15 +216,9 @@ keyboards:
               - action:
                   character:
                     char: "9"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "9"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: p
@@ -282,15 +228,9 @@ keyboards:
               - action:
                   character:
                     char: "0"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "0"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
       - keys:
           - action: none
             width:
@@ -304,15 +244,9 @@ keyboards:
               - action:
                   character:
                     char: "~"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: "`"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: s
@@ -322,15 +256,9 @@ keyboards:
               - action:
                   character:
                     char: /
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: /
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: d
@@ -343,12 +271,6 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: ":"
-                display: true
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: f
@@ -358,15 +280,9 @@ keyboards:
               - action:
                   character:
                     char: ;
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  character:
-                    char: ;
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: g
@@ -379,13 +295,6 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: (
-                label: ◁ ▷
-                display: true
-                processByRIME: true
-                direction: down
               - action:
                   shortcutCommand: "#左手模式"
                 display: true
@@ -408,12 +317,6 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: )
-                display: true
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: j
@@ -427,13 +330,6 @@ keyboards:
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: "?"
-                label: "?"
-                display: true
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: k
@@ -441,17 +337,11 @@ keyboards:
             label: K
             swipe:
               - action:
-                  symbol:
-                    char: “
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
                     char: '"'
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: l
@@ -459,17 +349,11 @@ keyboards:
             label: L
             swipe:
               - action:
-                  symbol:
-                    char: ”
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
-                    char: ”
+                    char: "'"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action: none
             width:
               percentage: 0.05
@@ -485,10 +369,6 @@ keyboards:
                 display: false
                 processByRIME: true
                 direction: up
-              - action: tab
-                display: true
-                processByRIME: true
-                direction: down
             lightModeStyle: *a1
             darkModeStyle: *a1
           - action: none
@@ -504,18 +384,12 @@ keyboards:
             label: Z
             swipe:
               - action:
-                  shortcutCommand: "#行首"
-                label: 󰞓
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
                     char: "-"
                 label: "-"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: x
@@ -523,18 +397,12 @@ keyboards:
             label: X
             swipe:
               - action:
-                  shortcutCommand: "#剪切"
-                label: 󰆐
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
                     char: _
                 label: _
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: c
@@ -542,18 +410,12 @@ keyboards:
             label: C
             swipe:
               - action:
-                  shortcutCommand: "#复制"
-                label: 
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
                   character:
                     char: "#"
                 label: "#"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: v
@@ -561,18 +423,12 @@ keyboards:
             label: V
             swipe:
               - action:
-                  shortcutCommand: "#粘贴"
-                label: 󰆒
+                  character:
+                    char: "?"
+                label: "?"
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: ，
-                label: ，
-                display: true
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: b
@@ -580,18 +436,12 @@ keyboards:
             label: B
             swipe:
               - action:
-                  shortcutCommand: "#RimeSwitcher"
-                label: 󰟡
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
-                    char: .
-                label: .
+                    char: "!"
+                label: "!"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: n
@@ -599,18 +449,12 @@ keyboards:
             label: N
             swipe:
               - action:
-                  shortcutCommand: "#换行"
-                label: 
+                  character:
+                    char: ","
+                label: ","
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: "!"
-                label: "!"
-                display: true
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: m
@@ -618,18 +462,12 @@ keyboards:
             label: M
             swipe:
               - action:
-                  shortcutCommand: "#行尾"
-                label: 󰞔
+                  character:
+                    char: .
+                label: .
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: "~"
-                label: "~"
-                display: true
-                processByRIME: true
-                direction: down
           - action: none
             width:
               portrait:
