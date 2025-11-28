@@ -325,8 +325,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "@"
-                label: "@"
+                    char: "~"
+                label: "~"
                 display: true
                 processByRIME: true
                 direction: up
@@ -385,8 +385,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "-"
-                label: "-"
+                    char: "@"
+                label: "@"
                 display: true
                 processByRIME: true
                 direction: up
@@ -398,8 +398,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: _
-                label: _
+                    char: .
+                label: .
                 display: true
                 processByRIME: true
                 direction: up
@@ -424,8 +424,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "?"
-                label: "?"
+                    char: "`"
+                label: "`"
                 display: true
                 processByRIME: true
                 direction: up
@@ -437,8 +437,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "!"
-                label: "!"
+                    char: "?"
+                label: "?"
                 display: true
                 processByRIME: true
                 direction: up
@@ -450,8 +450,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: ","
-                label: ","
+                    char: "!"
+                label: "!"
                 display: true
                 processByRIME: true
                 direction: up
@@ -463,8 +463,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: .
-                label: .
+                    char: "..."
+                label: "..."
                 display: true
                 processByRIME: true
                 direction: up
@@ -863,7 +863,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: "-"
                 display: true
                 processByRIME: false
@@ -875,7 +875,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: /
                 display: true
                 processByRIME: false
@@ -887,7 +887,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: ":"
                 display: true
                 processByRIME: false
@@ -899,7 +899,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: ;
                 display: true
                 processByRIME: false
@@ -911,7 +911,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: (
                 display: true
                 processByRIME: false
@@ -923,7 +923,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: )
                 display: true
                 processByRIME: false
@@ -935,7 +935,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: "~"
                 display: true
                 processByRIME: false
@@ -947,8 +947,8 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
-                    char: '"'
+                  character:
+                    char: "'"
                 display: true
                 processByRIME: false
                 direction: up
@@ -960,7 +960,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: """
+                    char: '"'
                 display: true
                 processByRIME: false
                 direction: up
@@ -1010,7 +1010,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "。"
+                    char: _
                 display: true
                 processByRIME: false
                 direction: up
@@ -1021,7 +1021,7 @@ keyboards:
             width: available
             swipe:
               - action:
-                  symbol:
+                  character:
                     char: "#"
                 display: true
                 processByRIME: false
@@ -1034,7 +1034,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "·"
+                    char: "&"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1046,7 +1046,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "？"
+                    char: "?"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1058,7 +1058,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "！"
+                    char: "!"
                 display: true
                 processByRIME: false
                 direction: up
@@ -1070,7 +1070,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "……"
+                    char: "..."
                 display: true
                 processByRIME: false
                 direction: up
@@ -1849,18 +1849,11 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "~"
-                label: "~"
+                    char: "-"
+                label: "-"
                 display: true
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: "`"
-                label: a `
-                display: true
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: s
@@ -1979,8 +1972,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "@"
-                label: "?"
+                    char: "~"
                 display: true
                 processByRIME: true
                 direction: up
@@ -2065,18 +2057,12 @@ keyboards:
             label: Z
             swipe:
               - action:
-                  shortcutCommand: "#行首"
-                label: "-"
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
-                    char: "-"
-                label: ou
+                    char: "@"
+                label: "@"
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: x
@@ -2179,18 +2165,12 @@ keyboards:
             label: M
             swipe:
               - action:
-                  shortcutCommand: "#行尾"
-                label: "~"
-                display: true
-                processByRIME: true
-                direction: up
-              - action:
                   character:
                     char: "~"
                 label: ian
                 display: true
                 processByRIME: true
-                direction: down
+                direction: up
           - action: none
             width:
               portrait:
@@ -2508,7 +2488,7 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "~"
+                    char: "-"
                 display: false
                 processByRIME: true
                 direction: up
@@ -2626,8 +2606,8 @@ keyboards:
             swipe:
               - action:
                   character:
-                    char: "@"
-                label: "@"
+                    char: "~"
+                label: "~"
                 display: false
                 processByRIME: true
                 direction: up
@@ -2708,18 +2688,12 @@ keyboards:
             label: Z
             swipe:
               - action:
-                  shortcutCommand: "#行首"
-                label: ⇤
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
                   character:
                     char: "-"
                 label: "-"
                 display: false
                 processByRIME: true
-                direction: down
+                direction: up
           - action:
               character:
                 char: x
@@ -2727,18 +2701,12 @@ keyboards:
             label: X
             swipe:
               - action:
-                  shortcutCommand: "#剪切"
-                label: 󰆐
+                  character:
+                    char: .
+                label: .
                 display: false
                 processByRIME: true
                 direction: up
-              - action:
-                  character:
-                    char: _
-                label: _
-                display: false
-                processByRIME: true
-                direction: down
           - action:
               character:
                 char: c
