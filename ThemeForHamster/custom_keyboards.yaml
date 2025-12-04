@@ -496,38 +496,36 @@ keyboards:
             darkModeStyle: *a2
       - keys:
           - action:
-              keyboardType: 渐变中文数字符号🍃
-            width:
-              portrait:
-                percentage: 0.14
-              landscape:
-                percentage: 0.2
-            label: 符
-            swipe:
-              - action:
-                  keyboardType: classifySymbolic
-                display: false
-                processByRIME: true
-                direction: up
-              - action:
-                  keyboardType: emojis
-                display: true
-                processByRIME: true
-                direction: down
-            lightModeStyle: *a2
-            darkModeStyle: *a2
-          - action:
               keyboardType: 渐变中文数字🍃
             width:
               portrait:
-                percentage: 0.13
-              landscape: available
+                percentage: 0.23
+              landscape:
+                percentage: 0.2
             label: "123"
             swipe:
               - action:
                   shortcutCommand: "#三选上屏"
                 display: false
                 processByRIME: true
+                direction: up
+            lightModeStyle: *a2
+            darkModeStyle: *a2
+          - action:
+              character:
+                char: "，"
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.14
+              landscape:
+                percentage: 0.2
+            swipe:
+              - action:
+                  character:
+                    char: "。"
+                display: true
+                processByRIME: false
                 direction: up
             lightModeStyle: *a3
             darkModeStyle: *a3
@@ -700,9 +698,24 @@ keyboards:
             lightModeStyle: *a2
             darkModeStyle: *a2
           - action:
-              character:
-                char: .
-            width: available
+              keyboardType: 渐变中文数字符号🍃
+            width:
+              portrait:
+                percentage: 0.14
+              landscape:
+                percentage: 0.2
+            label: 符
+            swipe:
+              - action:
+                  keyboardType: classifySymbolic
+                display: false
+                processByRIME: true
+                direction: up
+              - action:
+                  keyboardType: emojis
+                display: true
+                processByRIME: true
+                direction: down
             lightModeStyle: *a3
             darkModeStyle: *a3
           - action:
@@ -1099,40 +1112,32 @@ keyboards:
             darkModeStyle: *a2
       - keys:
           - action:
-              keyboardType: 渐变英文数字符号🍃
+              keyboardType: 渐变英文数字🍃
+            processByRIME: false
+            width:
+              portrait:
+                percentage: 0.23
+              landscape:
+                percentage: 0.2
+            label: "123"
+            lightModeStyle: *a2
+            darkModeStyle: *a2
+          - action:
+              character:
+                char: ","
             processByRIME: false
             width:
               portrait:
                 percentage: 0.14
               landscape:
                 percentage: 0.2
-            label: 符
             swipe:
               - action:
-                  keyboardType: classifySymbolic
-                display: false
+                  character:
+                    char: "."
+                display: true
                 processByRIME: false
                 direction: up
-              - action:
-                  shortcutCommand: "#上个输入方案"
-                display: false
-                processByRIME: true
-                direction: left
-              - action:
-                  shortcutCommand: "#上个输入方案"
-                display: false
-                processByRIME: true
-                direction: right
-            lightModeStyle: *a2
-            darkModeStyle: *a2
-          - action:
-              keyboardType: 渐变英文数字🍃
-            processByRIME: false
-            width:
-              portrait:
-                percentage: 0.13
-              landscape: available
-            label: "123"
             lightModeStyle: *a3
             darkModeStyle: *a3
           - action: space
@@ -3034,9 +3039,24 @@ keyboards:
             lightModeStyle: *a2
             darkModeStyle: *a2
           - action:
-              character:
-                char: .
-            width: available
+              keyboardType: 渐变英文数字符号🍃
+            width:
+              portrait:
+                percentage: 0.14
+              landscape:
+                percentage: 0.2
+            label: 符
+            swipe:
+              - action:
+                  keyboardType: classifySymbolic
+                display: false
+                processByRIME: true
+                direction: up
+              - action:
+                  keyboardType: emojis
+                display: true
+                processByRIME: true
+                direction: down
             lightModeStyle: *a3
             darkModeStyle: *a3
           - action:
