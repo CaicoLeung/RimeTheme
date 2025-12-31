@@ -519,7 +519,7 @@ keyboards:
               portrait:
                 percentage: 0.14
               landscape:
-                percentage: 0.2
+                percentage: 0.1
             swipe:
               - action:
                   character:
@@ -552,7 +552,8 @@ keyboards:
             width:
               portrait:
                 percentage: 0.13
-              landscape: available
+              landscape:
+                percentage: 0.1
             label: 中/英
             swipe:
               - action:
@@ -1130,7 +1131,7 @@ keyboards:
               portrait:
                 percentage: 0.14
               landscape:
-                percentage: 0.2
+                percentage: 0.1
             swipe:
               - action:
                   character:
@@ -1165,7 +1166,8 @@ keyboards:
             width:
               portrait:
                 percentage: 0.13
-              landscape: available
+              landscape:
+                percentage: 0.1
             label: 英/中
             lightModeStyle: *a5
             darkModeStyle: *a5
@@ -1373,7 +1375,7 @@ keyboards:
               keyboardType: 渐变英文数字符号🍃
             width:
               portrait:
-                percentage: 0.13
+                percentage: 0.23
               landscape: available
             label: 全/半
             lightModeStyle: *a5
@@ -1382,7 +1384,8 @@ keyboards:
             width:
               portrait:
                 percentage: 0.23
-              landscape: available
+              landscape:
+                percentage: 0.2
             label:  确认
             lightModeStyle: *a6
             darkModeStyle: *a6
@@ -1625,7 +1628,8 @@ keyboards:
             width:
               portrait:
                 percentage: 0.23
-              landscape: available
+              landscape:
+                percentage: 0.2
             label:  确认
             lightModeStyle: *a6
             darkModeStyle: *a6
@@ -2262,7 +2266,8 @@ keyboards:
             width:
               portrait:
                 percentage: 0.13
-              landscape: available
+              landscape:
+                percentage: 0.1
             label: 中/英
             swipe:
               - action:
@@ -2893,7 +2898,8 @@ keyboards:
             width:
               portrait:
                 percentage: 0.13
-              landscape: available
+              landscape:
+                percentage: 0.1
             label: 中/英
             swipe:
               - action:
