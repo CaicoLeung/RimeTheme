@@ -700,11 +700,7 @@ keyboards:
             darkModeStyle: *a2
           - action:
               keyboardType: 渐变中文数字符号🍃
-            width:
-              portrait:
-                percentage: 0.14
-              landscape:
-                percentage: 0.2
+            width: available
             label: 符
             swipe:
               - action:
@@ -3046,11 +3042,7 @@ keyboards:
             darkModeStyle: *a2
           - action:
               keyboardType: 渐变英文数字符号🍃
-            width:
-              portrait:
-                percentage: 0.14
-              landscape:
-                percentage: 0.2
+            width: available
             label: 符
             swipe:
               - action:
